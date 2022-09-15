@@ -1,0 +1,16 @@
+@media (max-width: 1200px) {
+  .containerGeral {
+    display: grid;
+    grid-template-columns: 10px 1fr 0px;
+  }
+}
+
+@media (max-width: 950px) {
+  .container-profissao {
+    display: flex;
+    height: 250px;
+  }
+  .container-profissao .foto {
+    display: none;
+  }
+}
