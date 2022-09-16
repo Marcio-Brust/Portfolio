@@ -1,7 +1,10 @@
 .dropdown {
   position: relative;
-  background: #c9c9c9;
+  background: #222;
   border-left: solid 2px #222;
+}
+.dropdown p {
+  color: #fff;
 }
 
 .dropdown .dropdown-menu {
@@ -27,10 +30,10 @@
 
 .dropdown-menu {
   margin-top: 10px;
-  border: solid 2px #222;
+  border: solid 2px #666;
   position: absolute;
   z-index: 200;
-  background: #e5e5e5;
+  background: #222;
 }
 
 .dropdown-menu::before {
@@ -40,14 +43,14 @@
   top: -10px;
   width: 0px;
   height: 0px;
-  border-bottom: 10px solid #222;
+  border-bottom: 10px solid #666;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
 
 .dropdown-menu li a {
-  color: darkblue;
+  color: rgb(71, 71, 175);
 }
 .dropdown-menu li a:hover {
-  color: #222;
+  color: #fff;
 }

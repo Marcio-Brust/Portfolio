@@ -1,16 +1,50 @@
 @media (max-width: 1200px) {
   .containerGeral {
     display: grid;
-    grid-template-columns: 10px 1fr 0px;
+    grid-template-columns: 0 1fr;
+  }
+  .experiencia {
+    width: 100%;
+    justify-items: center;
+  }
+  .cursos {
+    display: grid;
   }
 }
 
 @media (max-width: 950px) {
   .container-profissao {
     display: flex;
+    justify-content: center;
     height: 250px;
   }
+
   .container-profissao .foto {
     display: none;
+  }
+
+  .contato {
+    display: block;
+    margin-top: 30px;
+  }
+  .contato p {
+    color: #666;
+  }
+}
+@media (max-width: 850px) {
+  .header-expe {
+    display: grid;
+  }
+  .menu {
+    margin-top: 20px;
+  }
+  .projetos {
+    display: grid;
+    justify-content: center;
+  }
+  .dropdown {
+    position: initial;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

@@ -5,9 +5,19 @@
 }
 
 @media (max-width: 950px) {
+  .dev {
+    display: none;
+  }
+
+  .foto-header {
+    display: block;
+    width: 88px;
+    border-radius: 50%;
+    margin-left: 50px;
+  }
   .js .button {
     display: flex;
-    background: #333;
+    background: rgb(10, 10, 10);
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 4px;
@@ -36,7 +46,7 @@
   .js .header-menu {
     display: none;
     position: absolute;
-    background: #c9c9c9;
+    background: #222;
     z-index: 1000;
     right: 0;
     top: 0px;
@@ -60,6 +70,6 @@
   .header-menu a {
     padding: 10px 0px;
     margin-left: 4px;
-    border-top: solid 2px #222;
+    border-bottom: solid 2px #222;
   }
 }
