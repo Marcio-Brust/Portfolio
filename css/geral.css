@@ -63,7 +63,6 @@ li {
 }
 
 .dev {
-  margin-left: 20px;
   font-size: 1.5rem;
   color: #daa520;
   font-weight: 800;
@@ -94,6 +93,8 @@ li {
   font-weight: 100;
   color: #666;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+  word-spacing: 4px;
 }
 .sobreMim a {
   margin-top: 30px;
