@@ -1,50 +1,42 @@
-@media (max-width: 1200px) {
-  .containerGeral {
-    display: grid;
-    grid-template-columns: 0 1fr;
-  }
-  .experiencia {
-    width: 100%;
-    justify-items: center;
-  }
-  .cursos {
-    display: grid;
-  }
-}
-
 @media (max-width: 950px) {
-  .container-profissao {
-    display: flex;
-    justify-content: center;
-    height: 250px;
+  /*  .biografia {
+    display: grid;
+    grid-template-rows: 20px;
+  } */
+  .biografia h1 {
+    font-size: 3.5rem;
   }
-
-  .container-profissao .foto {
-    display: none;
+  .biografia p {
+    text-align-last: left;
   }
-
-  .contato {
-    display: block;
-    margin-top: 30px;
-  }
-  .contato p {
-    color: #666;
+  .foto {
+    grid-row: 1;
+    width: 250px;
   }
 }
-@media (max-width: 850px) {
-  .header-expe {
-    display: grid;
+@media (max-width: 750px) {
+  .biografia h1 {
+    font-size: 2.8rem;
   }
-  .menu {
-    margin-top: 20px;
+  .biografia p {
+    text-align-last: left;
   }
-  .projetos {
-    display: grid;
-    justify-content: center;
+}
+
+@media (max-width: 400px) {
+  .biografia h1 {
+    font-size: 1.8rem;
+    margin-top: -20px;
   }
-  .dropdown {
-    position: initial;
-    margin-left: auto;
-    margin-right: auto;
+  .biografia p {
+    text-align-last: left;
+  }
+
+  .dev2 {
+    font-size: 0.5rem;
+  }
+
+  .menu a {
+    font-size: 0.897rem;
   }
 }

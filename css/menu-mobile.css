@@ -1,75 +1,96 @@
 .button {
   display: none;
-  position: relative;
-  z-index: 1001;
 }
-
 @media (max-width: 950px) {
-  .dev {
-    display: none;
+  .containerGeral {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
   }
-
-  .foto-header {
-    display: block;
-    width: 88px;
-    border-radius: 50%;
-    margin-left: 50px;
-  }
-  .js .button {
+  .button {
     display: flex;
-    background: rgb(10, 10, 10);
+    background: #222;
     border: none;
     padding: 0.5rem 1rem;
-    border-radius: 4px;
+    border-radius: 5px;
     text-transform: uppercase;
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Courier New", Courier, monospace;
     font-weight: bold;
-    color: #fff;
+    color: #daa520;
     cursor: pointer;
     margin: 10px;
     align-items: center;
+    position: relative;
+    z-index: 300;
   }
-
-  .js .button::before {
+  .button::before {
     margin-right: 4px;
     content: "";
     display: inline-block;
     height: 2px;
     width: 12px;
-    background: #fff;
-    box-shadow: 0 4px #fff, 0 -4px #fff;
+    background: #daa520;
+    box-shadow: 0 4px #daa520, 0 -4px #daa520;
     transition: transform 0.3s;
   }
   .button.active::before {
     transform: rotate(90deg);
   }
-  .js .header-menu {
+  .menu {
     display: none;
     position: absolute;
-    background: #222;
-    z-index: 1000;
-    right: 0;
-    top: 0px;
-    padding: 60px 0 0px 0;
-    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.2);
-  }
-  .js .header-menu.active {
-    display: block;
-    animation: show-top 0.3s forwards;
+    background: #fff;
+    width: 150px;
+    z-index: 200;
+    top: 20px;
+    padding: 100px 0 20px 0;
+    box-shadow: 1px 0px 0px 0px #daa520;
+    border-radius: 5px;
   }
 
-  @keyframes show-top {
+  .menu.active {
+    display: block;
+    animation: show-up 0.3s forwards;
+  }
+  @keyframes show-up {
     from {
       opacity: 0;
+      margin-top: -30px;
+      background: transparent;
     }
     to {
       opacity: 1;
+      margin-top: 0;
+      background: #fff;
     }
   }
 
-  .header-menu a {
-    padding: 10px 0px;
-    margin-left: 4px;
-    border-bottom: solid 2px #222;
+  .dev {
+    display: none;
+  }
+  .dev2 {
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    color: #daa520;
+    font-weight: 800;
+    font-family: "Courier New", Courier, monospace;
+  }
+  /*   .nav {
+    height: 50px;
+  } */
+  .biografia {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+  .biografia,
+  .sobreMim {
+    margin-top: 20px;
+  }
+
+  .foto {
+    grid-row: 1;
   }
 }
