@@ -114,3 +114,41 @@ li {
 .foto {
   width: 400px;
 }
+.experiencia {
+  margin-top: 20px;
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.titulo {
+  font-size: 3.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #222;
+  display: flex;
+  align-self: center;
+}
+.projetos {
+  display: grid;
+  gap: 10px;
+}
+.projetos div {
+  background: #222;
+  border-radius: 5px;
+}
+.projetos h2 {
+  color: #daa520;
+  margin: 10px;
+}
+.projetos p,
+div {
+  color: #666;
+  margin: 10px;
+}
+.link-do-projeto {
+  display: flex;
+  gap: 5px;
+}
+.link-do-projeto a {
+  color: #daa520;
+  font-family: monospace;
+}

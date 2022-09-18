@@ -8,8 +8,25 @@
   }
 
   .foto {
+    display: none;
     grid-row: 1;
     width: 250px;
+  }
+  .experiencia {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .titulo {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    justify-self: center;
+    font-size: 3.5rem;
+  }
+
+  .projetos div {
+    background: #222;
   }
 }
 @media (max-width: 750px) {
@@ -18,6 +35,9 @@
   }
   .biografia p {
     text-align-last: left;
+  }
+  .titulo {
+    font-size: 2.8rem;
   }
 }
 
@@ -29,7 +49,9 @@
   .biografia p {
     text-align-last: left;
   }
-
+  .titulo {
+    font-size: 1.8rem;
+  }
   .dev2 {
     font-size: 0.5rem;
   }
