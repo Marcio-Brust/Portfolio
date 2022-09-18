@@ -4,8 +4,9 @@
 @media (max-width: 950px) {
   .containerGeral {
     display: grid;
-    grid-template-columns: 50px 1fr 50px;
+    /* grid-template-columns: 50px 1fr 50px; */
   }
+
   .button {
     display: flex;
     background: #222;
@@ -70,7 +71,7 @@
   .dev2 {
     display: block;
     margin-right: 20px;
-    margin-left: 20px;
+
     font-size: 1.5rem;
     color: #daa520;
     font-weight: 800;

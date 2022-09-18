@@ -41,7 +41,13 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+  .containerGeral {
+    grid-template-columns: 0px 1fr 0px;
+  }
+  .upContainer {
+    grid-template-columns: 0 1fr 0;
+  }
   .biografia h1 {
     font-size: 1.8rem;
     margin-top: -20px;
@@ -58,5 +64,8 @@
 
   .menu a {
     font-size: 0.897rem;
+  }
+  .link-do-projeto {
+    font-size: 0.75rem;
   }
 }

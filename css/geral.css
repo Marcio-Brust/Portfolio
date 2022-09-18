@@ -131,6 +131,10 @@ li {
   display: grid;
   gap: 10px;
 }
+
+.projetos span {
+  color: #daa520;
+}
 .projetos div {
   background: #222;
   border-radius: 5px;
@@ -151,4 +155,7 @@ div {
 .link-do-projeto a {
   color: #daa520;
   font-family: monospace;
+}
+.link-do-projeto span {
+  color: #666;
 }
