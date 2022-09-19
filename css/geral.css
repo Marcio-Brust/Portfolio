@@ -33,6 +33,7 @@ li {
   display: grid;
   grid-template-columns: 50px 1fr 50px;
   background: #fff;
+  border-bottom: solid 4px #daa520;
 }
 .nav {
   margin-top: 20px;
@@ -55,7 +56,7 @@ li {
   padding: 6px 10px;
   color: #daa520;
   font-weight: bold;
-  font-family: "Courier New", Courier, monospace;
+  font-family: monospace;
 }
 .menu a:hover {
   background: #222;
@@ -64,7 +65,7 @@ li {
 
 .dev {
   font-size: 1.5rem;
-  color: #daa520;
+  color: #222;
   font-weight: 800;
   font-family: "Courier New", Courier, monospace;
 }
@@ -73,6 +74,7 @@ li {
 }
 
 .biografia {
+  margin: 0;
   margin-top: 20px;
   grid-column: 2/3;
   display: grid;
@@ -80,39 +82,51 @@ li {
   align-items: center;
   justify-items: center;
 }
-
+.sobreMim {
+  margin: 0;
+}
 .sobreMim h1 {
   font-size: 3.5rem;
   font-weight: 800;
   color: #222;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: monospace;
 }
 .sobreMim p {
   margin-top: 20px;
   font-size: 1.1rem;
   font-weight: 100;
-  color: #666;
+  color: #222;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: left;
   word-spacing: 4px;
+  font-family: monospace;
 }
 .sobreMim a {
   margin-top: 30px;
   display: inline-block;
-  padding: 10px 30px;
-  background: #222;
+  font-family: monospace;
   border-radius: 5px;
-  color: #daa520;
+  color: #222;
   font-weight: bold;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: monospace;
 }
 .sobreMim span {
   color: #daa520;
   font-weight: bold;
+  font-family: monospace;
+}
+.mais-de-mim {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #222;
 }
 
 .foto {
   width: 400px;
+}
+.foto img {
+  width: 300px;
+  border-radius: 50%;
 }
 .experiencia {
   margin-top: 20px;
@@ -122,8 +136,8 @@ li {
 }
 .titulo {
   font-size: 3.5rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: #222;
+  font-family: monospace;
+  color: rgb(34, 34, 34);
   display: flex;
   align-self: center;
 }
@@ -136,17 +150,16 @@ li {
   color: #daa520;
 }
 .projetos div {
-  background: #222;
+  background: #fff;
   border-radius: 5px;
 }
 .projetos h2 {
-  color: #daa520;
-  margin: 10px;
+  color: #222;
 }
 .projetos p,
 div {
-  color: #666;
-  margin: 10px;
+  color: #222;
+  margin-top: 10px;
 }
 .link-do-projeto {
   display: flex;
@@ -155,7 +168,8 @@ div {
 .link-do-projeto a {
   color: #daa520;
   font-family: monospace;
+  font-weight: bold;
 }
 .link-do-projeto span {
-  color: #666;
+  color: #222;
 }

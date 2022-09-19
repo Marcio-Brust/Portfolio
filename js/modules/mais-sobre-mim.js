@@ -7,13 +7,13 @@ const buttonShow = document.querySelector(".mais-de-mim");
 
 function show(event) {
   if (buttonShow.classList.contains("active")) {
-    buttonShow.textContent = "Mostrar mais";
+    buttonShow.textContent = "Mais ↓";
     showMe.classList.remove("active");
     buttonShow.classList.remove("active");
   } else {
     showMe.classList.add("active");
     buttonShow.classList.add("active");
-    buttonShow.textContent = "Mostrar menos";
+    buttonShow.textContent = "Menos ↑";
   }
 }
 

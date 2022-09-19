@@ -8,9 +8,13 @@
   }
 
   .foto {
-    display: none;
     grid-row: 1;
-    width: 250px;
+    width: 300px;
+  }
+  .foto img {
+    width: 300px;
+    background: #222;
+    border-radius: 50%;
   }
   .experiencia {
     grid-column: 2/3;
@@ -23,10 +27,6 @@
     text-align: center;
     justify-self: center;
     font-size: 3.5rem;
-  }
-
-  .projetos div {
-    background: #222;
   }
 }
 @media (max-width: 750px) {
@@ -54,12 +54,23 @@
   }
   .biografia p {
     text-align-last: left;
+    margin: 10px;
+  }
+  .sobreMim,
+  h1,
+  p {
+    margin-top: 10px;
+  }
+  .mais-de-mim {
+    font-size: 1rem;
   }
   .titulo {
     font-size: 1.8rem;
+    margin-top: 20px;
   }
   .dev2 {
     font-size: 0.5rem;
+    color: #222;
   }
 
   .menu a {
@@ -68,5 +79,15 @@
   .link-do-projeto {
     font-size: 0.75rem;
     white-space: nowrap;
+  }
+  .projetos {
+    margin: 0;
+  }
+  .projetos h2,
+  .link-do-projeto {
+    margin: 0px 10px;
+  }
+  .projetos p {
+    margin: 0px 10px;
   }
 }
