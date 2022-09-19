@@ -92,6 +92,7 @@ li {
   font-family: monospace;
 }
 .sobreMim p {
+  margin: 0;
   margin-top: 20px;
   font-size: 1.1rem;
   font-weight: 100;
@@ -155,10 +156,12 @@ li {
 }
 .projetos h2 {
   color: #222;
+  margin: 0;
 }
 .projetos p,
 div {
   color: #222;
+  margin: 0;
   margin-top: 10px;
 }
 .link-do-projeto {
@@ -172,4 +175,69 @@ div {
 }
 .link-do-projeto span {
   color: #222;
+}
+.formacao {
+  margin-top: 50px;
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+.titulo-formacao {
+  grid-column: 2/3;
+  grid-row: 1;
+  font-size: 3.5rem;
+  font-family: monospace;
+  color: rgb(34, 34, 34);
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+.cursos {
+  grid-column: 1/2;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.java-script-origamid,
+.html-e-css-origamid,
+.analise-e-dev {
+  font-size: 0.7rem;
+  background: #fff;
+  box-sizing: border-box;
+  border-left: 2px solid transparent;
+}
+.java-script-origamid:hover {
+  border-left: solid 2px rgb(129, 2, 248);
+}
+.html-e-css-origamid:hover {
+  border-left: solid 2px rgb(129, 2, 248);
+}
+.analise-e-dev:hover {
+  border-left: solid 2px #20ceda;
+}
+.java-script-origamid h1,
+.html-e-css-origamid h1,
+.analise-e-dev h1,
+h2,
+p {
+  margin: 10px;
+}
+.java-script-origamid h1,
+.html-e-css-origamid h1 {
+  color: rgb(129, 2, 248);
+  font-weight: bold;
+  font-family: monospace;
+}
+.java-script-origamid h2,
+.html-e-css-origamid h2 {
+  color: #222;
+  font-weight: bold;
+  font-family: monospace;
+}
+.analise-e-dev h1 {
+  color: #20ceda;
+  font-weight: bold;
+  font-family: monospace;
 }
