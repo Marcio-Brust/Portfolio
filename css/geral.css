@@ -33,7 +33,6 @@ li {
   display: grid;
   grid-template-columns: 50px 1fr 50px;
   background: #fff;
-  border-bottom: solid 4px #daa520;
 }
 .nav {
   margin-top: 20px;
@@ -57,6 +56,8 @@ li {
   color: #daa520;
   font-weight: bold;
   font-family: monospace;
+  box-shadow: #666 10px 5px 20px;
+  border-radius: 5px;
 }
 .menu a:hover {
   background: #222;
@@ -84,12 +85,17 @@ li {
 }
 .sobreMim {
   margin: 0;
+  box-shadow: #666 10px 5px 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
 }
 .sobreMim h1 {
   font-size: 3.5rem;
   font-weight: 800;
   color: #222;
   font-family: monospace;
+  text-shadow: #666 10px 5px 20px;
 }
 .sobreMim p {
   margin: 0;
@@ -128,6 +134,8 @@ li {
 .foto img {
   width: 300px;
   border-radius: 50%;
+  box-shadow: #666 10px 5px 20px;
+  box-sizing: border-box;
 }
 .experiencia {
   margin-top: 20px;
@@ -141,6 +149,8 @@ li {
   color: rgb(34, 34, 34);
   display: flex;
   align-self: center;
+  text-shadow: #666 10px 5px 20px;
+  box-sizing: border-box;
 }
 .projetos {
   display: grid;
@@ -153,10 +163,18 @@ li {
 .projetos div {
   background: #fff;
   border-radius: 5px;
+  box-shadow: #666 10px 5px 20px;
+  padding: 10px;
+  box-sizing: border-box;
 }
+.projetos div:hover {
+  margin-left: 20px;
+}
+
 .projetos h2 {
   color: #222;
   margin: 0;
+  text-shadow: #666 10px 5px 20px;
 }
 .projetos p,
 div {
@@ -192,12 +210,13 @@ div {
   display: flex;
   align-self: center;
   justify-content: center;
+  text-shadow: #666 10px 5px 20px;
 }
 .cursos {
   grid-column: 1/2;
   display: grid;
   gap: 10px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 300px;
 }
 
 .java-script-origamid,
@@ -206,23 +225,26 @@ div {
   font-size: 0.7rem;
   background: #fff;
   box-sizing: border-box;
-  border-left: 2px solid transparent;
+  border-left: 5px solid transparent;
+  box-shadow: #666 10px 5px 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 .java-script-origamid:hover {
-  border-left: solid 2px rgb(129, 2, 248);
+  border-left: solid 5px rgb(129, 2, 248);
 }
 .html-e-css-origamid:hover {
-  border-left: solid 2px rgb(129, 2, 248);
+  border-left: solid 5px rgb(129, 2, 248);
 }
 .analise-e-dev:hover {
-  border-left: solid 2px #20ceda;
+  border-left: solid 5px #20ceda;
 }
-.java-script-origamid h1,
-.html-e-css-origamid h1,
-.analise-e-dev h1,
-h2,
-p {
+.java-script-origamid h1 p,
+.html-e-css-origamid h1 p,
+.analise-e-dev h1 p,
+h2 {
   margin: 10px;
+  text-shadow: #666 10px 5px 20px;
 }
 .java-script-origamid h1,
 .html-e-css-origamid h1 {
