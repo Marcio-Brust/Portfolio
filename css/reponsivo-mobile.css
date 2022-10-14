@@ -1,0 +1,21 @@
+@media (max-width: 550px) {
+  body {
+    grid-template-columns: 10px 1fr 10px;
+  }
+
+  .home h1 {
+    font-size: 2rem;
+  }
+  .home p {
+    font-size: 1rem;
+  }
+  .sobre h1 {
+    font-size: 2rem;
+  }
+  .sobre p {
+    font-size: 1.5rem;
+  }
+  .home .img-dev {
+    width: 350px;
+  }
+}

@@ -1,19 +1,29 @@
-import outsideClick from "./outsideclick.js";
-
 export default function initiMenuMobile() {}
 
 const button = document.querySelector(".button");
-const menu = document.querySelector(".menu");
-const eventos = ["click", "touchstart"];
+const btn = document.querySelector(".header div");
+const nav = document.querySelector(".nav");
+const titulo = document.querySelectorAll(".titulo-dev, .p-dev");
 
-function openMenu(event) {
-  menu.classList.add("active");
-  button.classList.add("active");
-  outsideClick(menu, "click", () => {
-    menu.classList.remove("active");
-    button.classList.remove("active");
-  });
+function handleClick(event) {
+  if (event.type === "touchstart") event.preventDefault();
+  button.classList.toggle("active");
+  nav.classList.toggle("active");
+
+  if (!button.classList.contains("active")) {
+    [...titulo].forEach((item) => {
+      item.innerHTML = "Frontend Developer";
+    });
+    titulo[1].style.display = "block";
+    titulo[1].innerHTML = "Estou aprendo cada dia mais, e amo o que faço.";
+  }
+  if (button.classList.contains("active")) {
+    [...titulo].forEach((item) => {
+      item.innerHTML = "Front Dev";
+    });
+    titulo[1].style.display = "none";
+  }
 }
-/* eventos.forEach((evento) => { */
-button.addEventListener("click", openMenu);
-/* }); */
+
+btn.addEventListener("click", handleClick);
+btn.addEventListener("touchstart", handleClick);
