@@ -114,4 +114,38 @@ body {
   font-weight: 400;
   text-align: center;
   line-height: 40px;
+  margin-bottom: 100px;
+}
+
+.qualificacao {
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  margin-bottom: 50px;
+}
+.cursos {
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 20px;
+  color: #141c3a;
+  text-align: center;
+  box-shadow: 0px -100px 0px 0px white;
+  border-radius: 10px;
+}
+
+.descricao {
+  margin-top: 50px;
+  display: grid;
+  grid-template-rows: 100px 100px 1fr;
+}
+
+.descricao p {
+  margin-top: 10px;
+}
+.descricao h1 {
+  color: #6e07f3;
+}
+.descricao h2 {
+  font-size: 1.1rem;
 }

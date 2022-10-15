@@ -34,4 +34,17 @@
   .home img {
     margin-top: 50px;
   }
+  .qualificacao {
+    justify-self: center;
+  }
+  .qualificacao .cursos {
+    grid-column: 2/3;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
+  .cursos,
+  .descricao {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
 }
