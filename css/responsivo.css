@@ -42,7 +42,7 @@
   }
   .qualificacao {
     justify-self: center;
-    width: 500px;
+    width: 600px;
   }
   .qualificacao .cursos {
     grid-column: 2/3;
