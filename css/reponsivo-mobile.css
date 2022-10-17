@@ -1,4 +1,4 @@
-@media (max-width: 550px) {
+@media (max-width: 620px) {
   body {
     grid-template-columns: 10px 1fr 10px;
   }
@@ -20,5 +20,24 @@
   }
   .qualificacao {
     width: auto;
+  }
+  .descricao {
+    width: 250px;
+    padding: 10px;
+  }
+  .meus-projetos h1 {
+    font-size: 1.5rem;
+    white-space: 0;
+  }
+  .contato h1 {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .redes {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 50px;
+    gap: 20px;
   }
 }

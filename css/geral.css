@@ -49,7 +49,7 @@ body {
   color: #333;
   font-weight: bold;
   font-family: monospace;
-  font-size: 1rem;
+  font-size: 1.2rem;
   white-space: nowrap;
 }
 
@@ -126,16 +126,13 @@ body {
 }
 .cursos {
   grid-column: 2/3;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   margin-top: 20px;
   color: #141c3a;
-  text-align: center;
   box-shadow: 0px -100px 0px 0px white;
   border-radius: 10px;
-  justify-items: center;
-  gap: 10px;
-  padding: 10px;
+  justify-content: center;
+  gap: 50px;
 }
 
 .descricao {
@@ -149,30 +146,7 @@ body {
   border: solid 2px #6e07f3;
   padding: 30px;
 }
-.descricao::before {
-  content: "";
-  position: absolute;
-  margin-top: -32px;
-  width: 10px;
-  height: 10px;
-  background: #6e07f3;
-  margin-left: -35px;
-  border-radius: 50%;
-}
 
-.descricao:hover.descricao::before {
-  animation: girar 0.3s forwards;
-}
-@keyframes girar {
-  from {
-    background: #6e07f3;
-  }
-  to {
-    width: 5px;
-    height: 195px;
-    margin-left: -33px;
-  }
-}
 .descricao p {
   margin-top: 10px;
   text-align: start;
@@ -261,4 +235,42 @@ body {
 }
 #great-coffee img {
   width: 100%;
+}
+.contato {
+  grid-column: 1/4;
+  text-align: center;
+  margin-top: 80px;
+  background: #6e07f3;
+  color: #ffffff;
+  font-family: monospace;
+}
+.contato h1 {
+  margin-top: 80px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nome {
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: inline-block;
+  margin-top: 50px;
+  padding: 5px;
+}
+.nome p {
+  margin-top: 20px;
+  text-align: start;
+  font-size: 1.2rem;
+}
+.redes {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.redes a {
+  padding: 20px;
+  border: solid 2px #d8d8d8;
+  color: #d8d8d8;
+  font-weight: bold;
+  border-radius: 50px;
 }
