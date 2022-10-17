@@ -203,11 +203,10 @@ body {
 }
 #rocket-blog {
   background: #290742;
+  padding: 0;
 }
 #rocket-blog img {
-  width: 250px;
-  margin-left: 20px;
-  margin-top: 5px;
+  width: 100%;
 }
 #rocket-blog:hover {
   background: #6e07f3;
@@ -223,4 +222,8 @@ body {
 }
 #great-coffee {
   background: #d8d8d8;
+  padding: 0;
+}
+#great-coffee img {
+  width: 100%;
 }
