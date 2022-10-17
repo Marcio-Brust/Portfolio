@@ -277,3 +277,6 @@ body {
   font-weight: bold;
   border-radius: 50px;
 }
+.redes a:hover {
+  background: #fff;
+}
