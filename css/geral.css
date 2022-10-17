@@ -133,22 +133,57 @@ body {
   text-align: center;
   box-shadow: 0px -100px 0px 0px white;
   border-radius: 10px;
+  justify-items: center;
+  gap: 10px;
+  padding: 10px;
 }
 
 .descricao {
   margin-top: 50px;
+  box-sizing: border-box;
   display: grid;
-  grid-template-rows: 100px 100px 1fr;
+  grid-template-rows: 40px 60px;
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  border: solid 2px #6e07f3;
+  padding: 30px;
+}
+.descricao::before {
+  content: "";
+  position: absolute;
+  margin-top: -32px;
+  width: 10px;
+  height: 10px;
+  background: #6e07f3;
+  margin-left: -35px;
+  border-radius: 50%;
 }
 
+.descricao:hover.descricao::before {
+  animation: girar 0.3s forwards;
+}
+@keyframes girar {
+  from {
+    background: #6e07f3;
+  }
+  to {
+    width: 5px;
+    height: 195px;
+    margin-left: -33px;
+  }
+}
 .descricao p {
   margin-top: 10px;
+  text-align: start;
 }
 .descricao h1 {
   color: #6e07f3;
+  text-align: start;
 }
 .descricao h2 {
   font-size: 1.1rem;
+  text-align: start;
 }
 
 .meus-projetos {
@@ -170,10 +205,9 @@ body {
 .projetos {
   grid-column: 2/3;
   grid-row: 2;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  gap: 10px;
+  display: flex;
+  justify-self: center;
+  gap: 50px;
 }
 .projetos div {
   padding: 5px;
@@ -185,6 +219,7 @@ body {
   box-sizing: border-box;
   display: flex;
   align-items: center;
+  margin-top: 50px;
 }
 .projetos div:hover {
   background: #6e07f3;
