@@ -4,6 +4,9 @@
   }
 }
 @media (max-width: 990px) {
+  body {
+    grid-template-columns: 0px 1fr 0px;
+  }
   .btn-mobile {
     display: block;
   }
