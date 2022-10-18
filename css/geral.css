@@ -124,7 +124,7 @@ body {
   font-weight: 400;
   text-align: center;
   line-height: 40px;
-  margin-bottom: 100px;
+  margin-bottom: 180px;
   letter-spacing: 2px;
 }
 
@@ -150,7 +150,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
-  box-shadow: 0px -240px 0px 0px white;
+  box-shadow: 0px -280px 0px 0px white;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
@@ -159,7 +159,7 @@ body {
   border: solid 1px #6e07f3;
   border-radius: 5px;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .descricao h2 {
   color: #6e07f3;
