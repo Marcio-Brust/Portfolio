@@ -2,7 +2,9 @@
   body {
     grid-template-columns: 0px 1fr 0px;
   }
-
+  .header {
+    grid-column: 1/4;
+  }
   .home h1 {
     font-size: 2rem;
   }
