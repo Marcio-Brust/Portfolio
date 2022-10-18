@@ -2,9 +2,6 @@
   body {
     grid-template-columns: 0px 1fr 0px;
   }
-  .nav a {
-    font-size: 0.759rem;
-  }
 
   .home h1 {
     font-size: 2rem;

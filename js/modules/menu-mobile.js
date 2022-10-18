@@ -1,14 +1,11 @@
 export default function initiMenuMobile() {
-  const button = document.querySelector(".button");
-  const btn = document.querySelector(".header div");
-  const nav = document.querySelector(".nav");
+  const button = document.querySelector(".btn-mobile");
 
-  function handleClick(event) {
+  function toggleMenu(event) {
     if (event.type === "touchstart") event.preventDefault();
-    button.classList.toggle("active");
+    const nav = document.querySelector(".nav");
     nav.classList.toggle("active");
   }
 
-  btn.addEventListener("click", handleClick);
-  btn.addEventListener("touchstart", handleClick);
+  button.addEventListener("click", toggleMenu);
 }

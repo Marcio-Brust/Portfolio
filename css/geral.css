@@ -12,12 +12,7 @@ img {
   max-width: 100%;
   display: block;
 }
-.button {
-  display: none;
-}
-.header div {
-  display: none;
-}
+
 .header h1 {
   color: #6e07f3;
 }
@@ -34,23 +29,32 @@ body {
   grid-template-columns: 50px 1fr 50px;
 }
 .header {
-  height: 100px;
   grid-column: 2/3;
+  box-sizing: border-box;
+  height: 70px;
+  padding: 1rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  justify-content: space-between;
 }
-.nav {
+.menu {
   display: flex;
+  gap: 0.5rem;
 }
-.nav a {
-  padding: 20px 30px;
-  color: #333;
-  font-weight: bold;
-  font-family: monospace;
+.menu a {
+  display: block;
   font-size: 1.2rem;
-  white-space: nowrap;
+  padding: 0.5rem;
+  color: #141c3a;
+  font-family: monospace;
+  font-weight: 500;
+}
+.menu a:hover {
+  color: #6e07f3;
+  font-weight: bold;
+}
+.btn-mobile {
+  display: none;
 }
 
 .home {
