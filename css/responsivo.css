@@ -2,6 +2,9 @@
   .cursos {
     gap: 10px;
   }
+  .nav a {
+    font-size: 1rem;
+  }
 }
 @media (max-width: 990px) {
   .button {
@@ -45,6 +48,13 @@
   .home img {
     margin-top: 50px;
   }
+  .home h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .home p {
+    font-size: 1rem;
+  }
   .qualificacao {
     justify-self: center;
     width: 600px;
@@ -68,6 +78,9 @@
     grid-template-columns: 1fr;
     justify-items: center;
     gap: 10px;
+  }
+  .contato h1 {
+    font-size: 1.5rem;
   }
   .redes {
     margin-top: 40px;
