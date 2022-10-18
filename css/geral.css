@@ -127,47 +127,7 @@ body {
   letter-spacing: 2px;
 }
 
-.qualificacao {
-  grid-column: 1/4;
-  display: grid;
-  grid-template-columns: 50px 1fr 50px;
-  margin-bottom: 50px;
-}
-.cursos {
-  grid-column: 2/3;
-  display: flex;
-  margin-top: 20px;
-  color: #141c3a;
-  box-shadow: 0px -100px 0px 0px white;
-  border-radius: 10px;
-  justify-content: center;
-  gap: 50px;
-}
 
-.descricao {
-  margin-top: 50px;
-  box-sizing: border-box;
-  display: grid;
-  grid-template-rows: 40px 60px;
-  width: 300px;
-  height: 200px;
-  border-radius: 5px;
-  border: solid 2px #6e07f3;
-  padding: 30px;
-}
-
-.descricao p {
-  margin-top: 10px;
-  text-align: start;
-}
-.descricao h1 {
-  color: #6e07f3;
-  text-align: start;
-}
-.descricao h2 {
-  font-size: 1.1rem;
-  text-align: start;
-}
 
 .meus-projetos {
   grid-column: 1/4;

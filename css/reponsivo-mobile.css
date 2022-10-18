@@ -20,16 +20,7 @@
   .home .img-dev {
     width: 350px;
   }
-  .qualificacao {
-    width: 400px;
-    grid-column: 2/3;
-  }
 
-  .descricao {
-    box-sizing: border-box;
-    width: 200px;
-    padding: 10px;
-  }
   .meus-projetos h1 {
     font-size: 1.5rem;
   }

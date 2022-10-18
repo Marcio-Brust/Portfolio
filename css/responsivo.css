@@ -94,22 +94,6 @@
   .home p {
     font-size: 1rem;
   }
-  .qualificacao {
-    justify-self: center;
-    width: 600px;
-  }
-  .qualificacao .cursos {
-    grid-column: 2/3;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    margin-top: 20px;
-  }
-
-  .cursos,
-  .descricao {
-    display: grid;
-    grid-template-rows: 1fr;
-  }
 
   .projetos {
     grid-column: 2/3;
