@@ -6,30 +6,32 @@
     grid-column: 1/4;
   }
   .home h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .home p {
-    font-size: 1rem;
+    font-size: 0.897rem;
   }
   .sobre h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .sobre p {
-    font-size: 1.5rem;
+    font-size: 0.897rem;
   }
   .home .img-dev {
     width: 350px;
   }
   .qualificacao {
-    width: auto;
+    width: 400px;
+    grid-column: 2/3;
   }
+
   .descricao {
-    width: 250px;
+    box-sizing: border-box;
+    width: 200px;
     padding: 10px;
   }
   .meus-projetos h1 {
     font-size: 1.5rem;
-    white-space: 0;
   }
   .contato h1 {
     font-size: 1.4rem;
