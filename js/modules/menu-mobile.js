@@ -8,7 +8,7 @@ export default function initiMenuMobile() {
     if (event.type === "touchstart") event.preventDefault();
     const ativo = nav.classList.contains("active");
     nav.classList.remove("active");
-    outsideClick(button, ["click", "touchstart"], () => {
+    outsideClick(button, ["click"], () => {
       nav.classList.remove("active");
     });
     if (!ativo) {
