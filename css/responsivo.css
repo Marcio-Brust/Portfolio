@@ -86,9 +86,7 @@
     font-size: 2rem;
     text-align: center;
   }
-  .home p {
-    font-size: 1rem;
-  }
+
   .qualificacao {
     display: grid;
     grid-template-columns: 1fr;

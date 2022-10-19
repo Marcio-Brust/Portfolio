@@ -6,11 +6,9 @@
     grid-column: 1/4;
   }
   .home h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
-  .home p {
-    font-size: 1rem;
-  }
+
   .sobre h1 {
     font-size: 1.8rem;
   }
