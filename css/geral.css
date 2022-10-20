@@ -82,7 +82,9 @@ body {
   height: auto;
   max-width: 100%;
   box-sizing: inherit;
+  border-radius: 50%;
 }
+
 .home .img-dev {
   margin-top: 80px;
   width: 860px;
@@ -118,6 +120,7 @@ body {
   line-height: 40px;
   margin-bottom: 180px;
   letter-spacing: 2px;
+  line-height: 45px;
 }
 
 .qualificacao {
@@ -192,12 +195,42 @@ body {
   align-items: center;
   margin-top: 50px;
 }
-.projetos div:hover {
-  background: #6e07f3;
-}
+
 .projetos div img {
   width: 100%;
 }
+.projetos .texto-projeto {
+  width: 300px;
+  height: 100px;
+  overflow: hidden;
+  opacity: 0;
+  box-sizing: border-box;
+  position: absolute;
+  margin-left: -5px;
+  margin-top: 150px;
+  background: #6e07f3;
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 0.75rem;
+  font-family: monospace;
+  color: #fff;
+  word-spacing: 2px;
+}
+.projetos #cartao-nubank:hover .texto-projeto,
+#rocket-nfts:hover .texto-projeto,
+#rocket-blog:hover .texto-projeto,
+#xadrez:hover .texto-projeto,
+#great-coffee:hover .texto-projeto {
+  height: 100px;
+  margin-top: 100px;
+  opacity: 1;
+  overflow: visible;
+}
+.projetos span {
+  font-weight: 800;
+}
+
 .projetos h1 {
   text-align: start;
   color: #fff;
@@ -209,29 +242,29 @@ body {
 }
 #rocket-blog {
   background: #290742;
-  padding: 0;
+  box-sizing: border-box;
 }
 #rocket-blog img {
   width: 100%;
 }
-#rocket-blog:hover {
-  background: #6e07f3;
-}
+
 #rocket-blog {
   background: #0e0e0e;
 }
 #cartao-nubank {
   background: #d8d8d8;
 }
-#cartao-nubank:hover {
-  background: #6e07f3;
-}
+
 #great-coffee {
   background: #d8d8d8;
-  padding: 0;
 }
 #great-coffee img {
   width: 100%;
+}
+
+#xadrez img {
+  width: 200px;
+  margin-left: 45px;
 }
 .contato {
   grid-column: 1/4;
