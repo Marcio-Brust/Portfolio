@@ -11,7 +11,7 @@ export default function initiMenuMobile() {
     const ativo = nav.classList.contains("active");
     nav.classList.remove("active");
 
-    outsideClick(button, ["click"], () => {
+    outsideClick(nav, ["click", "touchsatrt"], () => {
       nav.classList.remove("active");
     });
 
