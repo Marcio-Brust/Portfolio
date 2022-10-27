@@ -217,11 +217,32 @@ body {
   color: #fff;
   word-spacing: 2px;
 }
+#modelo-portfolio {
+  background-image: radial-gradient(
+    circle,
+    #141f30,
+    #273d56,
+    #385e7f,
+    #4882a9,
+    #55a8d4
+  );
+  font-size: 2rem;
+
+  color: #fff;
+}
+#modelo-portfolio a:nth-child(1) {
+  padding: 60px;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+}
 .projetos #cartao-nubank:hover .texto-projeto,
 #rocket-nfts:hover .texto-projeto,
 #rocket-blog:hover .texto-projeto,
 #xadrez:hover .texto-projeto,
-#great-coffee:hover .texto-projeto {
+#great-coffee:hover .texto-projeto,
+#modelo-portfolio:hover .texto-projeto {
   height: 100px;
   margin-top: 100px;
   opacity: 1;
