@@ -102,7 +102,6 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
-    box-shadow: 0px -150px 0px 0px white;
   }
   .titulo {
     display: none;
