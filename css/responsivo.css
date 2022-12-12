@@ -1,4 +1,4 @@
-@media (max-width: 990px) {
+@media (max-width: 1070px) {
   body {
     grid-template-columns: 0px 1fr 0px;
   }
@@ -38,6 +38,11 @@
     border-bottom: #e1d4f3 solid 00.1px;
     white-space: nowrap;
     text-align: center;
+    color: #141c3a;
+  }
+
+  .menu a.active {
+    font-weight: bold;
   }
   .btn-mobile {
     display: flex;
