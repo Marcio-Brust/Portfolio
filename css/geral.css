@@ -257,12 +257,21 @@ body {
   text-align: center;
   font-size: 2rem;
 }
+#projeto-dogs a:nth-child(1) {
+  padding: 60px;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+}
+
 .projetos #cartao-nubank:hover .texto-projeto,
 #rocket-nfts:hover .texto-projeto,
 #rocket-blog:hover .texto-projeto,
 #xadrez:hover .texto-projeto,
 #great-coffee:hover .texto-projeto,
-#modelo-portfolio:hover .texto-projeto {
+#modelo-portfolio:hover .texto-projeto,
+#projeto-dogs:hover .texto-projeto {
   height: 100px;
   margin-top: 100px;
   opacity: 1;
@@ -317,6 +326,14 @@ body {
   background-position: center;
   background-size: contain;
 }
+
+#projeto-dogs {
+  background-image: url("../assets/img/foto.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 .contato {
   grid-column: 1/4;
   text-align: center;
