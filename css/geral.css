@@ -266,7 +266,7 @@ body {
 }
 
 .projetos #cartao-nubank:hover .texto-projeto,
-#rocket-nfts:hover .texto-projeto,
+#pokemon:hover .texto-projeto,
 #rocket-blog:hover .texto-projeto,
 #xadrez:hover .texto-projeto,
 #great-coffee:hover .texto-projeto,
@@ -313,8 +313,8 @@ body {
   background-position: center;
   background-size: contain;
 }
-#rocket-nfts {
-  background-image: url("../assets/img/logo.svg");
+#pokemon {
+  background-image: url("../assets/img/pokemon-4096.97233ec2f26239fe2d14.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
